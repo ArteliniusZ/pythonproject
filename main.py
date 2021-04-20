@@ -1,14 +1,10 @@
-# This is a sample Python script.
+username = "developer1";
+password = "hackme";
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+print("This program checks if username and password are correct\n");
 
+input_username = input ("Please enter username: ");
+input_password = input("Please enter password: ");
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
+print(username == input_username);
+print(password == input_password);
